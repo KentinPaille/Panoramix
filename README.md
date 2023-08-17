@@ -10,8 +10,6 @@ and [mutex programming](https://www.geeksforgeeks.org/mutex-lock-for-linux-threa
 ### Prerequisites
 * `C` and `libc`
 * [Make](https://www.gnu.org/software/make/)
-* [Criterion](https://github.com/Snaipe/Criterion) (tests)
-* [Gcovr](https://gcovr.com/en/stable/) (coverage)
 
 ### Context
 The year is 50 BC. Gaul is entirely occupied by the Romans. Well, not entirely. . . One small village of indomitable
@@ -40,7 +38,6 @@ To compile the `panoramix`, stack is used wrapped in a Makefile, which implement
 |   `make clean`        | delete the files produced by the compilation. |
 |   `make fclean`       | execute a `make clean`, and then delete the `panoramix` executable at the root of project. |
 |   `make re`           | do the `fclean` and `all` rules (in that order) |
-|   `make tests_run`    | execute unit_tests with `criterion`, and print the coverage using `gcovr`. |
 
 ### Arguments
 ```sh
